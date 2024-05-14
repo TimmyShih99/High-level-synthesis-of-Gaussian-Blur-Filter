@@ -1,0 +1,9 @@
+*** Current stack trace:
+--> 0x2ae0a1d636a6 <don't know>         + 1566a6   /lib64/libc.so.6
+--> 0x2ae0a14e0630 <don't know>         + f630     /lib64/libpthread.so.0
+--> 0x2ae0a1d636a6 <don't know>         + 1566a6   /lib64/libc.so.6
+--> 0x2ae0a7fdf38e CExecutableImage::initLinkLibraries(LibsToLoad const&, int, CElaborator*) + 2ee      /usr/cadtool/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libhub.so
+--> 0x2ae0a7fbdb9f CResultsManager::postExecute() + 4f       /usr/cadtool/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libhub.so
+--> 0x2ae0a7fa6d92 CSLProgram::endExecution() + 12       /usr/cadtool/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libhub.so
+--> 0x2ae0a7fc505c cpliTerminate        + ac       /usr/cadtool/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libhub.so
+--> 0x2ae0a12dc2a7 sslShutdown          + 27       /usr/cadtool/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/ncvlog_ssl.so
